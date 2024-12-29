@@ -2,7 +2,11 @@
   "name": "nvtiqassessment",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test":"npx playwright test",
+    "reports":"npx playwright show-report"
+  
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
